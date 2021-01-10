@@ -1,0 +1,30 @@
+@import '../../assets/scss/style.scss';
+
+.sign-page-extra {
+    background-color: $theme-background;
+}
+.login-card {
+    background-color: white;
+    margin-top: 20vh;
+}
+
+.login-button {
+    width: 100% !important;
+    background-color: $brand-background;
+    border-color: $brand-background;
+
+    &:hover {
+        background-color: $brand-background;
+        border-color: $brand-background;
+    }
+    &:active {
+        background-color: $brand-background !important;
+        border-color: $brand-background !important;
+        box-shadow: none;
+    }
+    &:focus {
+        background-color: $brand-background !important;
+        border-color: $brand-background !important;
+        box-shadow: none !important;
+    }
+}
